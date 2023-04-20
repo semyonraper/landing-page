@@ -9,11 +9,12 @@
     <!-- гугл шрифты-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!--гугл шрифты -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon (4).ico">
+  
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -21,24 +22,25 @@
     <header>
         <div class="container">
             <div class="top">
-                <a href="#home" class="thick-4">Home</a>
-                <a href="#news" class="thick-4">About</a>
-                <a href="#contact" class="thick-4">Contact</a>
+                <a href="#home" class="thick-4" id="Home">Home</a>
+                <a href="#news" class="thick-4" id="About">About</a>
+                <a href="#contact" class="thick-4" id="Contact">Contact</a>
                 <a href="https://instagram.com/fur_fur.toy?igshid=YmMyMTA2M2Y=" class="split" class="thick-4">fur_fur.toy</a>
             </div>
     </div>
 </header>
 
+<button id="translate">Перевести</button>
 
     <main>
         <div class="container">
             <div class="hero-image">  
                 <div class="hero-text">
-                  <h1>I AM ALLA RUSNACHENKO</h1>
+                  <h1 id="main-heading">I AM ALLA RUSNACHENKO</h1>
                 </div>
 
                 <div class="hero-text2">
-                   <p>AND I MAKE TOYS</p>
+                   <p id="andimaketoys" >AND I MAKE TOYS</p>
                 </div>
                 
             </div>
@@ -46,14 +48,14 @@
 
     <div id="home" class="about-section">
       <div class="about-section2">
-        <h1>About Us Page</h1>
-        <p>Some text about who we are and what we do.</p>
-        <p>Resize the browser window to see that this page is responsive by the way.</p>
+        <h1 id="about-section">A few details about myself</h1>
+        <p id="about-section1">Some text about who we are and what we do.</p>
+        <p id="about-section2">Resize the browser window to see that this page is responsive by the way.</p>
       </div>
       </div>
       
       <div class="muw">
-        <h2 >my works</h2>
+        <h2 id="muw1" >my works</h2>
       </div>
       
    
@@ -117,18 +119,19 @@
           <img src="photo_z.jpg" alt="Paris">
         </div>
         <div class="flip-box-back">
-          <h1>Furfurik-bunny, <br> very cute and soft</h1>
+          <h1 id="bunny">Furfurik-bunny, </h1>
+          <h1 id="bunny2">very cute and soft</h1>
         </div>
       </div>
     </div>
     <div data-aos="fade-up"
     data-aos="center-bottom" class="text2">
       <div class="text3">
-        <h2>About furfuries</h2>
-        <p><b>And what they are.</b></p>
+        <h2 id="fur1">About furfuries</h2>
+        <p id="fur2"><b>And what they are.</b></p>
       </div>
       <div class="fur">
-        <p>Hello! We are furfuries. Furfurik is not just a New Year's toy. Each is created individually by Furfurmama's hands.
+        <p id="fur3">Hello! We are furfuries. Furfurik is not just a New Year's toy. Each is created individually by Furfurmama's hands.
           Having made such a gift to your loved ones or yourself, you get a cute baby who will gain value every year.
           The value of memories. Furfurik will be with you for many years. 
           Remember the most favorite toy on the Christmas tree as a child, in your parents' house or in your grandmother's house?!
@@ -142,12 +145,12 @@
   <!-- kor -->
 
   <div class="textcenter">
-    <h2>a little more about </h2>
-      <p>furfuriks:</p>
+    <h2 id="alitle">a little more about </h2>
+      <p id="alitle2">furfuriks:</p>
   </div>
   <div class="center">
     <div class="cen">
-      <h2>wool toys</h2>
+      <h2 id="toys">wool toys</h2>
       <p>Furfurik - Christmas toy, souvenir, gift. <br>
         Furfurik - author's work. <br>
          Firfirik is felted of wool. <br>
@@ -157,7 +160,7 @@
 
     </div>
     <div class="cen">
-      <h2>cotton toys</h2>
+      <h2 id="toys2">cotton toys</h2>
       <p>Furfurik - Christmas toy, souvenir, gift. <br>
         Furfurik - author's work. <br>
          Firfirik is felted of wool. <br>
@@ -166,7 +169,7 @@
         Firfirik is very pleasant to the touch, you want to hold it on the handles.</p>
     </div>
     <div class="cen">
-      <h2>combination toys</h2>
+      <h2 id="toys3">combination toys</h2>
       <p>Furfurik - Christmas toy, souvenir, gift. <br>
         Furfurik - author's work. <br>
          Firfirik is felted of wool. <br>
@@ -318,6 +321,7 @@
       </div>
   </footer>  
   </div>
+
           
   <!-- preloader -->
   <div id="preloder" class="preloder">
@@ -330,5 +334,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="script.js"></script>
+<script src="translate.js"></script>
+
 </body>
 </html>

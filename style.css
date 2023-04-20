@@ -28,7 +28,8 @@ body{
     min-height: 100vh;
     text-rendering:optimizeSpeed;
     line-height: 1.5;
-    font-family: 'DM Sans';
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
 
