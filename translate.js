@@ -26,8 +26,42 @@ function initTranslate() {
     toggleTranslate('toys2','ватные игрушки','cotton toys')
     toggleTranslate('toys3','комбинированные игрушки','combination toys')
 
+    toggleTranslate('in1','Фурфурик - елочная игрушка, сувенир, подарок.','Furfurik - Christmas toy, souvenir, gift.')
+    toggleTranslate('in2','Фурфурик - авторская работа.','Furfurik - authors work.')
+    toggleTranslate('in3','Фурфирик свалян из шерсти.','Firfirik is felted of wool.')
+    toggleTranslate('in4','Личико пластиковое, расписано акриловыми краскати.','The face is plastic, painted with acrylic paints. ')
+    toggleTranslate('in5','Bысота Фурфурика около 12 см.',' Furfiriks height is about 12 cm.')
+    toggleTranslate('in6','Фурфурик очень приятный на ощупь, его хочется держать на ручках.','Firfirik is very pleasant to the touch, you want to hold it on the handles.')
+
+    toggleTranslate('in7','Фурфурик - елочная игрушка, сувенир, подарок.','Furfurik - Christmas toy, souvenir, gift.')
+    toggleTranslate('in8','Фурфурик - авторская работа.','Furfurik - authors work.')
+    toggleTranslate('in9','Фурфирик свалян из шерсти.','Firfirik is felted of wool.')
+    toggleTranslate('in10','Личико пластиковое, расписано акриловыми краскати.','The face is plastic, painted with acrylic paints. ')
+    toggleTranslate('in11','Bысота Фурфурика около 12 см.',' Furfiriks height is about 12 cm.')
+    toggleTranslate('in12','Фурфурик очень приятный на ощупь, его хочется держать на ручках.','Firfirik is very pleasant to the touch, you want to hold it on the handles.')
+
+    toggleTranslate('in13','Фурфурик - елочная игрушка, сувенир, подарок.','Furfurik - Christmas toy, souvenir, gift.')
+    toggleTranslate('in14','Фурфурик - авторская работа.','Furfurik - authors work.')
+    toggleTranslate('in15','Фурфирик свалян из шерсти.','Firfirik is felted of wool.')
+    toggleTranslate('in16','Личико пластиковое, расписано акриловыми краскати.','The face is plastic, painted with acrylic paints. ')
+    toggleTranslate('in17','Bысота Фурфурика около 12 см.',' Furfiriks height is about 12 cm.')
+    toggleTranslate('in18','Фурфурик очень приятный на ощупь, его хочется держать на ручках.','Firfirik is very pleasant to the touch, you want to hold it on the handles.')
+
+    toggleTranslate('cont1','Свяжись с нами','Contact Us')
+    toggleTranslate('cont2','Загляните на чашечку кофе или оставьте нам сообщение:','Swing by for a cup of coffee, or leave us a message:')
+
+    toggleTranslate('end1','Имя','First Name')
+    toggleTranslate('end3','Фамилия','Last Name')
+    toggleTranslate('end5','Старна','Country')
+    toggleTranslate('end6','Австрия','Australia')
+    toggleTranslate('end7','Канада','Canada')
+    toggleTranslate('end8','США','USA')
+    toggleTranslate('end9','Сообщение','Subject')
+    toggleTranslate('end10','Отправить','submit')
+
 
 }
+
 
 translateButton?.addEventListener('click',initTranslate)
 
