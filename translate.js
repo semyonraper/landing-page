@@ -5,6 +5,7 @@ function initTranslate() {
     toggleTranslate('Home','Главная','Home')
     toggleTranslate('About','О фурфуриках','About')
     toggleTranslate('Contact','Контакты','Contact')
+    toggleTranslate('Gallery','Галерея','Gallery')
     toggleTranslate('main-heading','Я АЛЛА РУСНАЧЕНКО','I AM ALLA RUSNACHENKO')
     toggleTranslate('andimaketoys','И Я ДЕЛАЮ ИГРУШКИ','AND I MAKE TOYS')
     toggleTranslate('about-section','Немного обо мне','A few details about myself')
@@ -71,5 +72,9 @@ function toggleTranslate(id, ruText,engText) {
     if(element) {
         element.innerText = element.innerText == ruText ? engText : ruText;
     }
+
+
+    translateButton.innerText = translateButton.innerText === 'RU' ? 'EN' : 'RU';
+
 }
 
