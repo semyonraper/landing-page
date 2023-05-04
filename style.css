@@ -135,9 +135,9 @@ select{
 }
 
 .hero-image {
-    background-image: url("kiten.jpeg");
+    background-image: url("mum4.jpg");
     position: relative;
-    min-height: 600px;
+    min-height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -893,7 +893,7 @@ select{
 } */
 
 .hero-image:hover {
-  background-position: 40% 65%;
+  background-position: 10% 35%;
   transition: all 0.3s ease-in-out;
 }
 /* preloder */
@@ -959,9 +959,10 @@ select{
   bottom: 5px;
   right: 5px;
   border-radius: 50%;
-  border-color: var(--main-button-color);
-  color: var(--main-bg-color);
+  z-index: 50;
+  /* border-color: var(--main-button-color);
+  color: var(--main-bg-color); */
   width: 50px;
   height: 50px;
-  background-color:var(--main-hed-color);
+  /* background-color:var(--main-hed-color); */
 }
